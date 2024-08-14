@@ -1,0 +1,55 @@
+body {
+    font-family:Times New Roman;
+    margin: 0;
+    padding: 0;
+    background-color: #dde0e7;
+  
+}
+header {
+    background-color: hsl(176.7,0%,100%);
+    color: #000000;
+    padding: 1em 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.portfolio-item {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 20px 0;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+background-container {
+ background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg);
+}
